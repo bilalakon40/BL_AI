@@ -9,3 +9,12 @@ secrets/*
 *.egg-info/
 .DS_Store
 *.pth
+.pytest_cache/
+*.log
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.idea/
+.vscode/
+backend/data/
