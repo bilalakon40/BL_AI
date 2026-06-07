@@ -1,0 +1,21 @@
+#Core
+fastapi
+uvicorn
+python-dotenv
+requests
+pydantic
+pydantic-settings
+
+#Exchange connectivity
+ccxt
+
+#AI (local via Ollama)
+openai
+
+#Data analysis
+pandas
+numpy
+
+#Testing
+pytest
+httpx
