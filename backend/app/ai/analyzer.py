@@ -125,10 +125,10 @@ class OllamaAnalyzer(BaseAnalyzer):
     Ollama = تطبيق لتشغيل نماذج LLM محلياً
     """
 
-    def __init__(self, base_url: str = None, model: str = 'llama3'):
+    def __init__(self, base_url: str = None, model: str = 'qwen2:0.5b'):
         super().__init__('ollama')
         self.base_url = base_url or os.getenv('OLLAMA_BASE_URL', 'http://localhost:11434')
-        self.model = model or os.getenv('OLLAMA_MODEL', 'llama3')
+        self.model = model or os.getenv('OLLAMA_MODEL', 'qwen2:0.5b')
 
     def is_ready(self) -> bool:
         """تحقق هل Ollama يعمل ويستجيب"""
